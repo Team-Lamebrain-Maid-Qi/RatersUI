@@ -1,0 +1,16 @@
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\bin\Debug\net5.0\RatersUI.exe
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\bin\Debug\net5.0\RatersUI.deps.json
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\bin\Debug\net5.0\RatersUI.runtimeconfig.json
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\bin\Debug\net5.0\RatersUI.runtimeconfig.dev.json
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\bin\Debug\net5.0\RatersUI.dll
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\bin\Debug\net5.0\ref\RatersUI.dll
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\bin\Debug\net5.0\RatersUI.pdb
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\obj\Debug\net5.0\RatersUI.csproj.AssemblyReference.cache
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\obj\Debug\net5.0\RatersUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\obj\Debug\net5.0\RatersUI.AssemblyInfoInputs.cache
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\obj\Debug\net5.0\RatersUI.AssemblyInfo.cs
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\obj\Debug\net5.0\RatersUI.csproj.CoreCompileInputs.cache
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\obj\Debug\net5.0\RatersUI.dll
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\obj\Debug\net5.0\ref\RatersUI.dll
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\obj\Debug\net5.0\RatersUI.pdb
+C:\Users\gordn\Documents\projects\codefellows\401net\RatersUI\RatersUI\RatersUI\obj\Debug\net5.0\RatersUI.genruntimeconfig.cache
