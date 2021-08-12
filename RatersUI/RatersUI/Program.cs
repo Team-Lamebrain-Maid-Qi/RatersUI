@@ -1,12 +1,17 @@
 ﻿using System;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
 
 namespace RatersUI
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Test.GetDataWithAuthentication();
+            HttpResponseMessage response = await Client.GetData("businesses");
+            Task<string> values = response.Content.ReadAsStringAsync();
+            Console.WriteLine(values.Result);
             //Greet();
             //Menu();
         }
@@ -31,6 +36,42 @@ namespace RatersUI
             //switch statement based on userInput variable, calling
         }
 
-        // methods for each api call here
+        //public async void Login()
+        //{
+        //    using (var client = new HttpClient())
+        //    {
+        //        client.BaseAddress = new Uri(APIUrl);
+        //        client.DefaultRequestHeaders.Accept.Clear();
+        //        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+        //        //client.DefaultRequestHeaders.Add("Authorization", "Bearer " + accessToken);
+
+        //        var response = await client.GetStringAsync(APIUrl + "businesses");
+        //        string checkResult = response.ToString();
+        //        Console.WriteLine(checkResult);
+        //    }
+        //}
+
+        //public static async void GetData()
+        //{
+        //    using (var client = new HttpClient())
+        //    {
+        //        string APIUrl = "https://localhost:44392/";
+        //        client.BaseAddress = new Uri(APIUrl);
+        //        var response = await client.GetStringAsync(APIUrl + "api/Businesses");
+        //        Console.WriteLine(response);
+        //        string checkResult = response.ToString();
+        //        Console.WriteLine(checkResult);
+        //    }
+        //}
+        //}
+
+        //public static async void GetThings()
+        //{
+        //    HttpResponseMessage response = await Client.GetData();
+        //    Console.WriteLine(response + " That was it.");
+        //    Task<string> values = response.Content.ReadAsStringAsync();
+        //    Console.WriteLine(values);
+        //}
+    // methods for each api call here
     }
 }
